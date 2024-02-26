@@ -15,9 +15,9 @@ The primary goal of this project is to standardize development workflow, making 
 ### How it Works
 
 1. **Up-to-Date Server Repository:** The designated server's Git remote repository will always reflect the latest server files. This ensures that team members can clone or pull the latest versions of the server and make necessary changes with confidence.
-<br>
+
 2. **Automated Synchronization:** Subsequent pushes and merges with the main branch will automatically synchronize locally and update the server. This synchronization process is triggered by invoking the update.py program, which merges the staging layer with its source. This automation eliminates the need for tedious manual copying of changes to the server directory.
-<br>
+
 3. **Utilization of Git's Version Management:** By leveraging Git's version management capabilities, we can effectively track changes and collaborate seamlessly. Git serves as a powerful tool for managing code changes, facilitating collaboration, and ensuring version control.
 
 ### Local Development
